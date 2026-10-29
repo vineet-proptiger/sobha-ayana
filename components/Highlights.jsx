@@ -18,19 +18,19 @@ const highlights = [
     icon: 'fa-solid fa-house-chimney'
   },
   {
+    title: 'Proximity to Tech Parks',
+    description: 'Close proximity to major tech parks like RMZ Ecoworld and Embassy Tech Village.',
+    icon: 'fa-solid fa-laptop-code'
+  },
+  {
     title: 'World-Class Amenities',
     description: 'Equipped with world-class amenities including clubhouse, pool, and gym.',
     icon: 'fa-solid fa-person-swimming'
   },
   {
-    title: 'Landscaped Open Spaces',
-    description: 'Beautifully landscaped open spaces and green surroundings.',
-    icon: 'fa-brands fa-canadian-maple-leaf'
-  },
-  {
-    title: 'Superior Construction',
-    description: 'High-quality construction with superior fittings and finishes.',
-    icon: 'fa-solid fa-shield-halved'
+    title: 'High-Growth Investment',
+    description: 'Ideal for both end-users and investors due to strong location growth.',
+    icon: 'fa-solid fa-chart-line'
   },
 ]
 

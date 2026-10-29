@@ -3,45 +3,45 @@ import React from 'react'
 
 const locationList = [
   {
-    title: 'Marathahalli - Sarjapur ORR',
-    desc: 'Key arterial corridor connecting Bangalore’s biggest IT hub',
-    time: 'Approx. 2.5 km',
-    icon: 'fa-solid fa-road',
+    title: 'Outer Ring Road',
+    desc: 'Direct arterial expressway connecting major tech corridors',
+    time: '02 KM',
+    icon: 'fa-solid fa-route',
   },
   {
-    title: 'Embassy TechVillage',
-    desc: 'Major IT park hosting global Fortune 500 corporations',
-    time: 'Approx. 3.5 km',
+    title: 'Orchids International School',
+    desc: 'Reputed international school ensuring easy daily commute',
+    time: '03 KM',
+    icon: 'fa-solid fa-graduation-cap',
+  },
+  {
+    title: 'Embassy Tech Village',
+    desc: 'Premier IT park hosting global Fortune 500 tech giants',
+    time: '04 KM',
     icon: 'fa-solid fa-building-user',
   },
   {
-    title: 'Prestige Tech Park & Cessna',
-    desc: 'Premier technology and business hubs on ORR',
-    time: 'Approx. 4.0 km',
-    icon: 'fa-solid fa-laptop-code',
-  },
-  {
-    title: 'RMZ Ecospace & Bellandur',
-    desc: 'Prominent tech corridor with leading IT/ITES giants',
-    time: 'Approx. 4.8 km',
+    title: 'RMZ Ecoworld',
+    desc: 'Prominent business & tech hub on Outer Ring Road',
+    time: '04 KM',
     icon: 'fa-solid fa-city',
   },
   {
     title: 'Sakra World Hospital',
-    desc: 'Renowned multi-specialty healthcare and emergency centre',
-    time: 'Approx. 4.2 km',
+    desc: 'Advanced multi-specialty healthcare & emergency care',
+    time: '05 KM',
     icon: 'fa-solid fa-hospital',
   },
   {
-    title: 'New Horizon Gurukul',
-    desc: 'Reputed educational institution for academic excellence',
-    time: 'Approx. 2.0 km',
-    icon: 'fa-solid fa-graduation-cap',
+    title: 'Marathahalli Junction',
+    desc: 'Major commercial, shopping and transit junction',
+    time: '06 KM',
+    icon: 'fa-solid fa-road',
   },
   {
-    title: 'Kempegowda Int\'l Airport',
-    desc: 'Accessible via Outer Ring Road and arterial corridors',
-    time: 'Approx. 42 km',
+    title: 'Kempegowda International Airport',
+    desc: 'Direct connectivity via Outer Ring Road & expressway',
+    time: '45 KM',
     icon: 'fa-solid fa-plane-departure',
   },
 ]
@@ -102,14 +102,14 @@ const Location = () => {
             data-aos="fade-left"
           >
             <iframe
-              src="https://maps.google.com/maps?q=Sobha+Ayana+Panathur+Marathahalli+ORR+Bengaluru&t=&z=14&ie=UTF8&iwloc=&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15554.266183073021!2d77.70691129902895!3d12.935557148022017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae130048901bed%3A0xd8266cbb0a857875!2sSobha%20Ayana%20Apartment!5e0!3m2!1sen!2sin!4v1793275360427!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="strict-origin-when-cross-origin"
-              title="Sobha Ayana, Panathur, Bengaluru Location Map"
+              title="Sobha Ayana Apartment, Bengaluru Location Map"
               className="w-full h-full block flex-1"
             />
           </div>

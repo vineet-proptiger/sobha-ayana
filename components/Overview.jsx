@@ -1,11 +1,9 @@
 'use client'
-import React, { useState } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import { overviewImage } from '../lib/images'
 
 const Overview = ({ setIsOpen }) => {
-  const [isExpanded, setIsExpanded] = useState(false)
-
   return (
     <section id="overview" className="w-full py-12 md:py-16 bg-white font-poppins">
       <div className="container mx-auto px-4" style={{ maxWidth: '1240px' }}>
@@ -38,36 +36,9 @@ const Overview = ({ setIsOpen }) => {
               </h2>
 
               <div className="mb-6">
-                <div className="text-[#4A5568] text-[15px] leading-[1.75] text-left flex flex-col gap-3">
-                  <p className="m-0">
-                    Raw tropical beauty in sylvan surrender of quietude. A world where modern living harmonises with the essence of a lush paradise. Brimming with over 100 amenities, here unparalleled opulence blossoms in nature&apos;s abundance. Set in 81 acres of SOBHA Dream Acres, SOBHA Ayana&apos;s contemporary design and organic allure beckons those yearning to commune with nature amidst the city&apos;s urban sprawl.
-                  </p>
-                  <p className="m-0">
-                    <strong className="text-[#111111]">Sobha Ayana</strong> offers exclusive 3 BHK luxury apartments designed with contemporary architecture, zero common wall layout, and world-class specifications that ensure abundant sunlight, natural cross-ventilation, and unparalleled privacy.
-                  </p>
-                  {isExpanded && (
-                    <div className="flex flex-col gap-3">
-                      <p className="m-0">
-                        Located in Panathur, Off Marathahalli-ORR, Bengaluru, <strong className="text-[#111111]">Sobha Ayana</strong> enjoys seamless connectivity to major IT corridors such as Embassy TechVillage, Prestige Tech Park, and RMZ Ecospace, along with premier schools, hospitals, and entertainment destinations.
-                      </p>
-                    </div>
-                  )}
-                </div>
-                <button
-                  type="button"
-                  onClick={() => setIsExpanded(!isExpanded)}
-                  className="text-[#111111] hover:text-[#8B6A34] font-bold text-[14.5px] mt-3 inline-flex items-center gap-1.5 hover:underline cursor-pointer transition-colors duration-200 focus:outline-none"
-                >
-                  <span>{isExpanded ? 'Read Less' : 'Read More'}</span>
-                  <svg 
-                    className={`w-4 h-4 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`} 
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
+                <p className="text-[#4A5568] text-[15px] leading-[1.8] text-left m-0">
+                  Raw tropical beauty in sylvan surrender of quietude. A world where modern living harmonises with the essence of a lush paradise. Brimming with over 100 amenities, here unparalleled opulence blossoms in nature&apos;s abundance. Set in 81 acres of SOBHA Dream Acres, SOBHA Ayana&apos;s contemporary design and organic allure beckons those yearning to commune with nature amidst the city&apos;s urban sprawl.
+                </p>
               </div>
 
               {/* ── Project Stats Grid (From SS) ── */}
