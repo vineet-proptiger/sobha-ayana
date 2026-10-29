@@ -244,10 +244,10 @@ const AboutDeveloper = ({ setIsOpen }) => (
           <div style={{ padding: '24px 28px', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <div>
               <p className='text-justify' style={{ color: '#555', fontFamily: F_SANS, lineHeight: 1.8, fontSize: '14px', margin: '0 0 14px' }}>
-                Sobha Limited is a premier real estate developer in India known for architectural innovation, superior engineering, backward integration, and customer trust. With decades of excellence, Sobha Limited has delivered numerous iconic residential and commercial landmarks across Bangalore and other key metros in India.
+                SOBHA Limited is a leading Indian real estate developer with a strong focus on design, construction quality and in-house capabilities. Its backward-integration model gives the company control across several stages of project delivery and finishing.
               </p>
               <p className='text-justify' style={{ color: '#555', fontFamily: F_SANS, lineHeight: 1.8, fontSize: '14px', margin: '0 0 20px' }}>
-                With Sobha Ayana, Sobha Limited brings an exclusive collection of luxury 3 BHK apartments in Panathur, Off Marathahalli-ORR, Bengaluru, designed with contemporary tropical architecture, zero common walls, and 100+ top-notch amenities inside the 81-acre Dream Acres township.
+                SOBHA’s journey of craftsmanship encompasses 599 iconic projects across residential, non-residential, commercial, and contractual spaces, spanning an expansive 156.45 million sq. ft. (14.53 million sq. m.) of delivered perfection.
               </p>
             </div>
 
