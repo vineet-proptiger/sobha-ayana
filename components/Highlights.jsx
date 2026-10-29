@@ -3,33 +3,33 @@ import React from 'react'
 
 const highlights = [
   {
-    title: 'Prime Location',
-    description: 'Located at Hennur Road, Bangalore offering quick access to major IT hubs and essential conveniences.',
-    icon: 'fa-solid fa-location-dot'
+    title: 'Forest-Facing Homes',
+    description: 'Forest-facing homes inside 81-acre Dream Acres, zero common wall.',
+    icon: 'fa-solid fa-tree'
   },
   {
-    title: 'Spacious Layout',
-    description: 'Thoughtfully planned 4 BHK luxury layouts designed to provide maximum space, comfort, and natural light.',
-    icon: 'fa-solid fa-arrows-up-down'
+    title: 'Reputed Developer',
+    description: 'Premium residential project by reputed developer Sobha Limited.',
+    icon: 'fa-solid fa-building-circle-check'
   },
   {
-    title: 'Sustainable Living',
-    description: 'Crafted with eco-friendly planning and green features to support a healthier, future-ready lifestyle.',
-    icon: 'fa-brands fa-canadian-maple-leaf'
+    title: 'Spacious 3 BHK Apartments',
+    description: 'Spacious and well-designed 3 BHK apartments with modern layouts.',
+    icon: 'fa-solid fa-house-chimney'
   },
   {
-    title: 'Trusted Builder',
-    description: 'Developed by Rohan Builders, one of India’s most reputed builders known for quality and timely delivery.',
-    icon: 'fa-solid fa-archway'
-  },
-  {
-    title: 'Modern Amenities',
-    description: 'Equipped with upcoming contemporary amenities to enhance everyday living and recreational comfort.',
+    title: 'World-Class Amenities',
+    description: 'Equipped with world-class amenities including clubhouse, pool, and gym.',
     icon: 'fa-solid fa-person-swimming'
   },
   {
-    title: 'Private Gated Community',
-    description: 'An exclusive low-density enclave featuring 24/7 multi-tier security, lush open greens, and unmatched privacy.',
+    title: 'Landscaped Open Spaces',
+    description: 'Beautifully landscaped open spaces and green surroundings.',
+    icon: 'fa-brands fa-canadian-maple-leaf'
+  },
+  {
+    title: 'Superior Construction',
+    description: 'High-quality construction with superior fittings and finishes.',
     icon: 'fa-solid fa-shield-halved'
   },
 ]
@@ -45,7 +45,7 @@ const Highlights = ({ setIsOpen }) => {
             PROJECT HIGHLIGHTS
           </span>
           <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight md:whitespace-nowrap">
-            What Makes Rohan Villa Hennur Stand Apart
+            What Makes Sobha Ayana Stand Apart
           </h2>
         </div>
 

@@ -125,10 +125,10 @@ const ContactCTA = ({ setIsOpen }) => {
             LIMITED TIME LAUNCH OPPORTUNITY
           </span>
           <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
-            Book Your Villa at Special Pre-Launch Prices
+            Book Your Home at Special Launch Prices
           </h2>
           <p className="text-[#4b5563] text-[14px] sm:text-[16px] font-medium max-w-3xl mx-auto mt-3 leading-relaxed">
-            Exclusive 4 BHK Luxury Villas | Hennur Road, North Bangalore | Pre-Launch
+            Exclusive 3 BHK Luxury Apartments | Panathur, Off Marathahalli-ORR, Bengaluru | New Launch
           </p>
 
           {/* CTA Buttons row */}
@@ -159,7 +159,7 @@ const ContactCTA = ({ setIsOpen }) => {
           {/* Contact Details */}
           <div className="mt-4 inline-flex items-center gap-2 text-xs sm:text-sm text-[#6c757d] font-semibold bg-white px-4 py-2 rounded-full border border-gray-200 shadow-xs">
             <i className="fa-solid fa-location-dot text-[#8B6A34]"></i>
-            <span>Hennur Road, North Bangalore</span>
+            <span>Panathur, Off Marathahalli-ORR, Bengaluru</span>
             <span className="text-gray-300">|</span>
             <a href={`tel:${PHONE_NUMBER}`} className="text-[#111111] hover:text-[#111111] flex items-center gap-1 font-bold">
               <i className="fa-solid fa-phone text-[#8B6A34]"></i>

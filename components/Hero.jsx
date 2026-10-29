@@ -90,19 +90,19 @@ const Hero = ({ setIsOpen }) => {
                 <div className="flex items-center gap-2 mb-2">
                   <span className="text-[11px] sm:text-[12px] uppercase tracking-[1.5px] font-bold text-[#8B6A34] bg-[#8B6A34]/10 border border-[#8B6A34]/30 px-3.5 py-1 rounded-full shadow-sm inline-flex items-center gap-1.5">
                     <i className="fa-solid fa-city text-[#8B6A34] text-[11px]" />
-                    By Rohan Builders
+                    By Sobha Limited
                   </span>
                 </div>
 
                 {/* Main Headline */}
                 <h1 className="text-[#111111] font-black tracking-tight leading-[1.18] text-[24px] xs:text-[28px] sm:text-[32px] md:text-[36px] m-0">
-                  Rohan Villa Hennur
+                  Sobha Ayana
                 </h1>
 
                 {/* Subheadline (Location) */}
                 <p className="flex items-center gap-1.5 text-xs sm:text-[13px] text-[#4A5568] font-medium mt-1.5 mb-2.5 leading-normal">
                   <i className="fas fa-location-dot text-[#8B6A34] text-[11px]" />
-                  <span>Hennur Road, Bangalore</span>
+                  <span>Panathur, Off Marathahalli-ORR, Bengaluru</span>
                 </p>
               </div>
 
@@ -176,17 +176,17 @@ const Hero = ({ setIsOpen }) => {
                       <span className="relative inline-flex rounded-full h-2 w-2 bg-[#8B6A34]"></span>
                     </span>
                     <strong className="blink-price font-black text-[16.5px] sm:text-[20.5px] whitespace-nowrap tracking-tight text-[#111111]">
-                      ₹ 4.5 Cr*
+                      ₹ 2.3 Cr*
                     </strong>
                   </div>
                 </div>
                 <div className="border-l border-[#EAE6DF] pl-2 sm:pl-4 lg:pl-5 flex-shrink-0">
                   <span className="text-gray-500 font-bold text-[10px] sm:text-[11px] uppercase tracking-wider block mb-0.5">Typology</span>
-                  <strong className="text-[#111111] font-black text-[13px] sm:text-[15px] whitespace-nowrap">4 BHK</strong>
+                  <strong className="text-[#111111] font-black text-[13px] sm:text-[15px] whitespace-nowrap">3 BHK</strong>
                 </div>
                 <div className="border-l border-[#EAE6DF] pl-2 sm:pl-4 lg:pl-5 flex-shrink-0">
                   <span className="text-gray-500 font-bold text-[10px] sm:text-[11px] uppercase tracking-wider block mb-0.5">Status</span>
-                  <strong className="text-[#8B6A34] font-black text-[13px] sm:text-[15px] whitespace-nowrap">Pre-Launch</strong>
+                  <strong className="text-[#8B6A34] font-black text-[13px] sm:text-[15px] whitespace-nowrap">New Launch</strong>
                 </div>
               </div>
 
@@ -209,7 +209,7 @@ const Hero = ({ setIsOpen }) => {
                 </div>
 
                 {/* LeadForm */}
-                <LeadForm formName="Rohan Villa Hennur Form" btnText="Submit" />
+                <LeadForm formName="Sobha Ayana Form" btnText="Submit" />
 
                 {/* ── 3 CTA BUTTONS BAR ── */}
                 <div className="mt-3.5 pt-3.5 border-t border-gray-100">

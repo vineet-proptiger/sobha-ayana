@@ -3,45 +3,45 @@ import React from 'react'
 
 const locationList = [
   {
-    title: 'Hennur-Bagalur Main Road',
-    desc: 'Direct arterial corridor right at your doorstep',
-    time: 'Approx. 0 km',
+    title: 'Marathahalli - Sarjapur ORR',
+    desc: 'Key arterial corridor connecting Bangalore’s biggest IT hub',
+    time: 'Approx. 2.5 km',
     icon: 'fa-solid fa-road',
   },
   {
-    title: 'St. Vincent Pallotti School',
-    desc: 'Reputed institution ensuring hassle-free daily commute',
-    time: 'Approx. 0.7 km',
-    icon: 'fa-solid fa-graduation-cap',
-  },
-  {
-    title: 'Cratis Hospital',
-    desc: 'Advanced multi-specialty healthcare and emergency care',
-    time: 'Approx. 0.9 km',
-    icon: 'fa-solid fa-hospital',
-  },
-  {
-    title: 'Elements Mall',
-    desc: 'Premier destination for shopping, dining and entertainment',
-    time: 'Approx. 2.3 km',
-    icon: 'fa-solid fa-bag-shopping',
-  },
-  {
-    title: 'Outer Ring Road (ORR)',
-    desc: 'Key arterial expressway connecting prime tech hubs',
-    time: 'Approx. 5 km',
-    icon: 'fa-solid fa-route',
-  },
-  {
-    title: 'Manyata Tech Park',
-    desc: 'One of Bangalore’s largest IT and business parks',
-    time: 'Approx. 6–8 km',
+    title: 'Embassy TechVillage',
+    desc: 'Major IT park hosting global Fortune 500 corporations',
+    time: 'Approx. 3.5 km',
     icon: 'fa-solid fa-building-user',
   },
   {
+    title: 'Prestige Tech Park & Cessna',
+    desc: 'Premier technology and business hubs on ORR',
+    time: 'Approx. 4.0 km',
+    icon: 'fa-solid fa-laptop-code',
+  },
+  {
+    title: 'RMZ Ecospace & Bellandur',
+    desc: 'Prominent tech corridor with leading IT/ITES giants',
+    time: 'Approx. 4.8 km',
+    icon: 'fa-solid fa-city',
+  },
+  {
+    title: 'Sakra World Hospital',
+    desc: 'Renowned multi-specialty healthcare and emergency centre',
+    time: 'Approx. 4.2 km',
+    icon: 'fa-solid fa-hospital',
+  },
+  {
+    title: 'New Horizon Gurukul',
+    desc: 'Reputed educational institution for academic excellence',
+    time: 'Approx. 2.0 km',
+    icon: 'fa-solid fa-graduation-cap',
+  },
+  {
     title: 'Kempegowda Int\'l Airport',
-    desc: 'Direct signal-free corridor to the international airport',
-    time: 'Approx. 25–30 km',
+    desc: 'Accessible via Outer Ring Road and arterial corridors',
+    time: 'Approx. 42 km',
     icon: 'fa-solid fa-plane-departure',
   },
 ]
@@ -102,14 +102,14 @@ const Location = () => {
             data-aos="fade-left"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2321051781355!2d77.6299432!3d13.0208861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae171e2f9917d3%3A0xa89ad8fa1447f15a!2sHennur%20Main%20Rd%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1793187571974!5m2!1sen!2sin"
+              src="https://maps.google.com/maps?q=Sobha+Ayana+Panathur+Marathahalli+ORR+Bengaluru&t=&z=14&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="strict-origin-when-cross-origin"
-              title="Rohan Villa Hennur, Bangalore Location Map"
+              title="Sobha Ayana, Panathur, Bengaluru Location Map"
               className="w-full h-full block flex-1"
             />
           </div>

@@ -194,7 +194,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
           DEVELOPER PROFILE
         </span>
         <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
-          Crafted by Rohan Builders
+          Crafted by Sobha Limited
         </h2>
       </div>
 
@@ -233,7 +233,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
               </div>
               <div>
                 <h3 style={{ fontFamily: F_JOST, fontWeight: '800', fontSize: '18px', color: '#fff', margin: '0 0 4px', letterSpacing: '-0.01em' }}>
-                  Rohan Builders
+                  Sobha Limited
                 </h3>
 
               </div>
@@ -244,10 +244,10 @@ const AboutDeveloper = ({ setIsOpen }) => (
           <div style={{ padding: '24px 28px', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <div>
               <p className='text-justify' style={{ color: '#555', fontFamily: F_SANS, lineHeight: 1.8, fontSize: '14px', margin: '0 0 14px' }}>
-                Rohan Builders is a premier real estate developer in India known for architectural innovation, superior engineering, and customer trust. With decades of excellence, Rohan Builders has delivered numerous iconic residential and commercial landmarks across Bangalore, Pune, and other key metros.
+                Sobha Limited is a premier real estate developer in India known for architectural innovation, superior engineering, backward integration, and customer trust. With decades of excellence, Sobha Limited has delivered numerous iconic residential and commercial landmarks across Bangalore and other key metros in India.
               </p>
               <p className='text-justify' style={{ color: '#555', fontFamily: F_SANS, lineHeight: 1.8, fontSize: '14px', margin: '0 0 20px' }}>
-                With Rohan Villa Hennur Road, Rohan Builders brings an exclusive collection of luxury 4 BHK villas designed with modern architecture and 20+ top-notch amenities, offering residents a peaceful, private, and serene living experience in North Bangalore.
+                With Sobha Ayana, Sobha Limited brings an exclusive collection of luxury 3 BHK apartments in Panathur, Off Marathahalli-ORR, Bengaluru, designed with contemporary tropical architecture, zero common walls, and 100+ top-notch amenities inside the 81-acre Dream Acres township.
               </p>
             </div>
 

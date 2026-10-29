@@ -31,7 +31,7 @@ export default function PrivacyPolicy() {
             <img
               src={logoImages.main}
               alt={PROJECT_NAME}
-              className="h-[22px] sm:h-[24px] md:h-[22px] lg:h-[25px] max-w-[210px] sm:max-w-[230px] md:max-w-[260px] w-auto object-contain transition-all duration-300"
+              className="h-[32px] sm:h-[36px] md:h-[40px] lg:h-[46px] max-w-[240px] sm:max-w-[280px] md:max-w-[320px] lg:max-w-[360px] w-auto object-contain transition-all duration-300"
             />
           </Link>
           <Link

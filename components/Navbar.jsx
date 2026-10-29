@@ -68,8 +68,8 @@ const Navbar = ({ setIsOpen, onPrefetchModal }) => {
           <a href="#home" className="flex items-center shrink-0">
             <img
               src={logoImages.main}
-              alt="Rohan Villa Hennur"
-              className="h-[22px] sm:h-[24px] md:h-[22px] lg:h-[24px] xl:h-[26px] max-w-[210px] sm:max-w-[230px] md:max-w-[240px] lg:max-w-[270px] w-auto object-contain transition-all duration-300"
+              alt="Sobha Ayana"
+              className="h-[32px] sm:h-[36px] md:h-[40px] lg:h-[44px] xl:h-[48px] max-w-[240px] sm:max-w-[280px] md:max-w-[320px] lg:max-w-[360px] w-auto object-contain transition-all duration-300"
             />
           </a>
 

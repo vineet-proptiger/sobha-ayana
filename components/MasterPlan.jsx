@@ -62,7 +62,7 @@ const MasterPlan = ({ setIsOpen }) => {
               <div className="relative w-full aspect-[16/10] sm:aspect-[16/9] bg-gray-50 p-4 sm:p-8 flex items-center justify-center overflow-hidden">
                 <Image
                   src="/images/masterplan/masterplan.webp"
-                  alt="Rohan Villa Hennur Master Plan"
+                  alt="Sobha Ayana Master Plan"
                   fill
                   className="object-contain filter blur-[6px] transition-transform duration-500 group-hover:scale-105"
                   sizes="(max-width: 1024px) 100vw, 900px"
@@ -86,7 +86,7 @@ const MasterPlan = ({ setIsOpen }) => {
           <div className="max-w-[550px] mx-auto w-full" data-aos="fade-up">
             
             {[
-              { label: '4 BHK Luxury Villas', size: 'On Request', img: '/images/masterplan/3bhk.webp' },
+              { label: '3 BHK Apartments', size: '1553 – 1789 Sq.Ft', img: '/images/masterplan/3bhk.webp' },
             ].map((plan, idx) => (
               <div
                 key={idx}

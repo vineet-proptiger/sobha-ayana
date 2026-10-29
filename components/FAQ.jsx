@@ -3,43 +3,43 @@ import React, { useState } from 'react'
 
 const faqData = [
   {
-    question: 'What configurations are available at Rohan Villa Hennur?',
+    question: 'What configurations are available at Sobha Ayana?',
     answer: (
       <>
-        Rohan Villa Hennur offers exclusive and spacious <strong className="font-semibold text-[#111111]">4 BHK luxurious villas</strong> designed with modern architecture and top-notch amenities that offer modern, peaceful and serene living.
+        Sobha Ayana offers exclusive and spacious <strong className="font-semibold text-[#111111]">3 BHK luxury apartments</strong> designed with modern architecture, zero common wall layout, and top-notch amenities that offer modern, peaceful and serene living.
       </>
     ),
   },
   {
-    question: 'What is the starting price of Rohan Villa Hennur?',
+    question: 'What is the starting price of Sobha Ayana?',
     answer: (
       <>
-        The starting price is <strong className="font-semibold text-[#111111]">₹ 4.5 Cr* Onwards</strong>. Exclusive pre-launch benefits and special early-bird offers for 4 BHK luxury villas are available upon enquiry for priority registrations.
+        The starting price is <strong className="font-semibold text-[#111111]">₹ 2.3 Cr* Onwards</strong>. Exclusive new launch benefits and special early-bird offers for 3 BHK luxury apartments are available upon enquiry for priority registrations.
       </>
     ),
   },
   {
-    question: 'Who is the developer of Rohan Villa Hennur?',
+    question: 'Who is the developer of Sobha Ayana?',
     answer:
-      'Rohan Villa Hennur Road is developed by Rohan Builders, one of India’s most reputed real estate builders renowned for architectural innovation, superior engineering standards, and quality living spaces.',
+      'Sobha Ayana is developed by Sobha Limited, one of India’s most reputed real estate builders renowned for superior craftsmanship, in-house quality control, and timely delivery.',
   },
   {
-    question: 'Where exactly is Rohan Villa located?',
+    question: 'Where exactly is Sobha Ayana located?',
     answer: (
       <>
-        The project is ideally situated in the heart of <strong className="font-semibold text-[#111111]">Hennur Road, North Bangalore</strong> (Horamavu Agara Road area), offering seamless connectivity to Manyata Tech Park, Outer Ring Road, and Kempegowda International Airport.
+        The project is ideally situated at <strong className="font-semibold text-[#111111]">Panathur, Off Marathahalli-ORR, Bengaluru</strong>, inside the 81-acre SOBHA Dream Acres, offering seamless connectivity to Outer Ring Road, Bellandur, Marathahalli, and Whitefield IT corridors.
       </>
     ),
   },
   {
-    question: 'What amenities are provided at Rohan Villa Hennur?',
+    question: 'What amenities are provided at Sobha Ayana?',
     answer:
-      'The project offers 20+ modern amenities including a well-equipped clubhouse, gym, yoga spaces, swimming pool, pet park, multipurpose hall, kids play area, jogging track, tennis court, and 24/7 security with CCTV surveillance.',
+      'The project offers over 100+ world-class amenities including a lavish clubhouse, swimming pool, fitness center, dedicated yoga deck, landscaped gardens, kids play area, jogging paths, sports courts, and 24/7 multi-tier security.',
   },
   {
     question: 'What is the current status and RERA registration of the project?',
     answer:
-      'The project is currently in the Pre-Launch phase. The RERA registration is Coming Soon.',
+      'The project is in the New Launch phase. The RERA registration number is PRM/KA/RERA/1251/446/PR/030824/006958.',
   },
 ]
 

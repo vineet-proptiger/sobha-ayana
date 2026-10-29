@@ -26,23 +26,23 @@ const montserrat = Montserrat({
 })
 
 export const metadata = {
-  metadataBase: new URL(SITE_URL || 'https://rohanvillahennurroad.co.in'),
-  title: 'Rohan Villa Hennur | 4 BHK Luxury Villas Hennur Road Bangalore',
-  description: 'Rohan Villa Hennur Road by Rohan Builders offers exclusive 4 BHK luxury villas in the heart of Hennur Road, North Bangalore with 20+ modern lifestyle amenities. Pre-Launch.',
+  metadataBase: new URL(SITE_URL || 'https://sobhaayanapanathur.com'),
+  title: 'Sobha Ayana | 3 BHK Luxury Apartments Panathur Bangalore',
+  description: 'Sobha Ayana at Panathur, Off Marathahalli-ORR, Bengaluru by Sobha Limited offers exclusive 3 BHK luxury apartments with 100+ modern lifestyle amenities. New Launch.',
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Rohan Villa Hennur | 4 BHK Luxury Villas Hennur Road Bangalore',
-    description: 'Rohan Villa Hennur Road by Rohan Builders offers exclusive 4 BHK luxury villas in the heart of Hennur Road, North Bangalore with 20+ modern lifestyle amenities. Pre-Launch.',
-    url: SITE_URL || 'https://rohanvillahennurroad.co.in',
-    siteName: 'Rohan Villa Hennur',
+    title: 'Sobha Ayana | 3 BHK Luxury Apartments Panathur Bangalore',
+    description: 'Sobha Ayana at Panathur, Off Marathahalli-ORR, Bengaluru by Sobha Limited offers exclusive 3 BHK luxury apartments with 100+ modern lifestyle amenities. New Launch.',
+    url: SITE_URL || 'https://sobhaayanapanathur.com',
+    siteName: 'Sobha Ayana',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Rohan Villa Hennur | 4 BHK Luxury Villas Hennur Road Bangalore',
-    description: 'Rohan Villa Hennur Road by Rohan Builders offers exclusive 4 BHK luxury villas in the heart of Hennur Road, North Bangalore with 20+ modern lifestyle amenities. Pre-Launch.',
+    title: 'Sobha Ayana | 3 BHK Luxury Apartments Panathur Bangalore',
+    description: 'Sobha Ayana at Panathur, Off Marathahalli-ORR, Bengaluru by Sobha Limited offers exclusive 3 BHK luxury apartments with 100+ modern lifestyle amenities. New Launch.',
   },
   icons: {
     icon: '/favicon/favicon.png',

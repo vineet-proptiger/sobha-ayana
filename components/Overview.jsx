@@ -16,7 +16,7 @@ const Overview = ({ setIsOpen }) => {
             <div className="relative w-full max-w-[500px] h-[340px] sm:h-[390px] md:h-[430px] lg:h-[440px] rounded-[24px] overflow-hidden shadow-[0_12px_40px_rgba(0,0,0,0.08)]">
                <Image 
                  src={overviewImage} 
-                 alt="About Rohan Villa Hennur" 
+                 alt="About Sobha Ayana" 
                  fill 
                  className="object-cover" 
                  sizes="(max-width: 1024px) 100vw, 50vw" 
@@ -34,24 +34,21 @@ const Overview = ({ setIsOpen }) => {
                 LUXURY LIVING
               </span>
               <h2 className="text-[#111111] text-[24px] sm:text-[28px] md:text-[32px] font-black leading-[1.15] mb-4 tracking-tight">
-                Overview
+                Project Overview
               </h2>
 
               <div className="mb-6">
                 <div className="text-[#4A5568] text-[15px] leading-[1.75] text-left flex flex-col gap-3">
                   <p className="m-0">
-                    <strong className="text-[#111111]">Rohan Villa Hennur Road</strong> is a new luxurious villas project developed by <strong className="text-[#111111]">Rohan Builders</strong>. The project is located in the heart of Hennur Road, North Bangalore.
+                    Raw tropical beauty in sylvan surrender of quietude. A world where modern living harmonises with the essence of a lush paradise. Brimming with over 100 amenities, here unparalleled opulence blossoms in nature&apos;s abundance. Set in 81 acres of SOBHA Dream Acres, SOBHA Ayana&apos;s contemporary design and organic allure beckons those yearning to commune with nature amidst the city&apos;s urban sprawl.
                   </p>
                   <p className="m-0">
-                    <strong className="text-[#111111]">Rohan Villa Hennur Road</strong> offers exclusive 4 BHK luxurious villas, which is design with modern architecture and top-notch amenities that offers modern, peaceful and serene living. Rohan Villa Hennur Road is a newest masterpiece villa project that redefines luxury living.
-                  </p>
-                  <p className="m-0">
-                    The project offers 20+ modern amenities that include a well-equipped clubhouse, gym, yoga spaces, swimming pool, pet park, multipurpose hall, kids play area, jogging track, tennis court, 24/7 security with CCTV surveillance and many more.
+                    <strong className="text-[#111111]">Sobha Ayana</strong> offers exclusive 3 BHK luxury apartments designed with contemporary architecture, zero common wall layout, and world-class specifications that ensure abundant sunlight, natural cross-ventilation, and unparalleled privacy.
                   </p>
                   {isExpanded && (
                     <div className="flex flex-col gap-3">
                       <p className="m-0">
-                        <strong className="text-[#111111]">Rohan Villa Hennur Road</strong> is located in Hennur Road, North Bangalore that enjoys excellent connectivity to key areas like Manyata Tech Park, Kempegowda International Airport and Outer Ring Road. The project has easy access to major IT hubs, schools, hospitals, shopping malls and entertainment hubs.
+                        Located in Panathur, Off Marathahalli-ORR, Bengaluru, <strong className="text-[#111111]">Sobha Ayana</strong> enjoys seamless connectivity to major IT corridors such as Embassy TechVillage, Prestige Tech Park, and RMZ Ecospace, along with premier schools, hospitals, and entertainment destinations.
                       </p>
                     </div>
                   )}
@@ -71,6 +68,26 @@ const Overview = ({ setIsOpen }) => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
                   </svg>
                 </button>
+              </div>
+
+              {/* ── Project Stats Grid (From SS) ── */}
+              <div className="grid grid-cols-2 gap-4 p-5 rounded-2xl bg-[#FAF8F5] border border-[#EAE6DF]">
+                <div>
+                  <div className="text-[22px] sm:text-[26px] font-black text-[#111111] tracking-tight">6.29 Acres</div>
+                  <div className="text-[11px] sm:text-[12px] font-bold text-gray-500 uppercase tracking-wider mt-0.5">LAND PARCEL</div>
+                </div>
+                <div className="border-l border-[#EAE6DF] pl-4">
+                  <div className="text-[22px] sm:text-[26px] font-black text-[#111111] tracking-tight">12</div>
+                  <div className="text-[11px] sm:text-[12px] font-bold text-gray-500 uppercase tracking-wider mt-0.5">NO. OF WINGS</div>
+                </div>
+                <div className="border-t border-[#EAE6DF] pt-3">
+                  <div className="text-[22px] sm:text-[26px] font-black text-[#111111] tracking-tight">2B + G + 14F</div>
+                  <div className="text-[11px] sm:text-[12px] font-bold text-gray-500 uppercase tracking-wider mt-0.5">NO. OF FLOORS</div>
+                </div>
+                <div className="border-t border-l border-[#EAE6DF] pt-3 pl-4">
+                  <div className="text-[22px] sm:text-[26px] font-black text-[#111111] tracking-tight">683</div>
+                  <div className="text-[11px] sm:text-[12px] font-bold text-gray-500 uppercase tracking-wider mt-0.5">NO. OF UNITS</div>
+                </div>
               </div>
 
             </div>

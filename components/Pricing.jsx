@@ -3,10 +3,10 @@ import React from 'react'
 
 const pricingData = [
   {
-    type: '4 BHK Luxury Villas',
-    area: 'On Request',
-    price: '₹ 4.5 Cr* Onwards',
-    desc: 'Expansive 4 BHK luxury villas featuring grand living-dining spaces, private terrace, master suites, and top-notch amenities.',
+    type: '3 BHK Apartments',
+    area: '1553 – 1789',
+    price: '₹ 2.3 Cr* Onwards',
+    desc: 'Spacious and well-designed 3 BHK luxury apartments featuring modern layouts, forest views, and top-notch amenities.',
   },
 ]
 
@@ -21,7 +21,7 @@ const Pricing = ({ setIsOpen }) => {
             PRICE LIST
           </span>
           <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight md:whitespace-nowrap">
-            Villa Configurations &amp; Exclusive Pre-Launch Pricing
+            Apartment Configurations &amp; Exclusive Launch Pricing
           </h2>
         </div>
 

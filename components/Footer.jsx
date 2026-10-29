@@ -12,7 +12,7 @@ const Footer = ({ setIsOpen }) => (
         data-aos="fade-up"
         className="text-white font-extrabold text-[22px] sm:text-[26px] md:text-[30px] leading-tight mb-3"
       >
-        Book Your Villa at Special Pre-Launch Prices
+        Book Your Home at Special Launch Prices
       </h2>
 
       {/* ── SECTION 8: Subheadline ── */}
@@ -20,7 +20,7 @@ const Footer = ({ setIsOpen }) => (
         data-aos="fade-up" data-aos-delay="50"
         className="text-[#d1d5db] font-medium text-[14px] sm:text-[16px] md:text-[17px] max-w-3xl leading-relaxed mb-8"
       >
-        Exclusive 4 BHK Luxury Villas | Hennur Road, North Bangalore | Pre-Launch
+        Exclusive 3 BHK Luxury Apartments | Panathur, Off Marathahalli-ORR, Bengaluru | New Launch
       </p>
 
       {/* ── SECTION 8: CTA Buttons ── */}
@@ -105,7 +105,7 @@ const Footer = ({ setIsOpen }) => (
       >
         <span className="flex items-center gap-1.5 text-neutral-300">
           <i className="fa-solid fa-location-dot text-[#8B6A34]"></i>
-          Hennur Road, North Bangalore
+          Panathur, Off Marathahalli-ORR, Bengaluru
         </span>
         <span className="text-white/20 hidden sm:inline">|</span>
         <a 

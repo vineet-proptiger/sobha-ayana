@@ -5,10 +5,10 @@
 @import 'aos/dist/aos.css';
 
 /* ═══════════════════════════════════════════════════════════════
-   THEME VARIABLES — Rohan Villa Hennur
+   THEME VARIABLES — Sobha Ayana
    ═══════════════════════════════════════════════════════════════ */
 :root {
-  /* ── Rohan Villa Hennur — Palette (#111111 + #8B6A34 + Warm Cream #F9F8F3) ── */
+  /* ── Sobha Ayana — Palette (#111111 + #8B6A34 + Warm Cream #F9F8F3) ── */
   --color-gold: #8B6A34;
   --color-gold-light: #A68245;
   --color-gold-dark: #6F5327;
@@ -221,7 +221,7 @@
     color: inherit;
   }
 
-  /* ── Rohan Villa Hennur scrollbar ── */
+  /* ── Sobha Ayana scrollbar ── */
   ::-webkit-scrollbar {
     width: 6px;
   }
@@ -562,7 +562,7 @@
   }
 }
 
-/* ─── Rohan Villa Hennur Hero Styles ─────────────────────────────────── */
+/* ─── Sobha Ayana Hero Styles ─────────────────────────────────── */
 .hero-section {
   font-family: var(--font-poppins), 'Poppins', sans-serif;
 }

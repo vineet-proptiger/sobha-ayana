@@ -1,8 +1,8 @@
 export default function manifest() {
   return {
-    name: 'Rohan Villa Hennur',
-    short_name: 'Rohan Villa',
-    description: 'Exclusive 4 BHK Luxury Villas on Hennur Road, Bangalore by Rohan Builders',
+    name: 'Sobha Ayana',
+    short_name: 'Sobha Ayana',
+    description: 'Exclusive 3 BHK Luxury Apartments at Panathur, Off Marathahalli-ORR, Bengaluru by Sobha Limited',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',
