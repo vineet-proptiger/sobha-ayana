@@ -21,7 +21,7 @@ const faqData = [
   {
     question: 'Who is the developer of Sobha Ayana?',
     answer:
-      'Sobha Ayana is developed by Sobha Limited, one of India’s most reputed real estate builders renowned for superior craftsmanship, in-house quality control, and timely delivery.',
+      'Sobha Ayana is developed by Sobha, one of India’s most reputed real estate builders renowned for superior craftsmanship, in-house quality control, and timely delivery.',
   },
   {
     question: 'Where exactly is Sobha Ayana located?',

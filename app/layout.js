@@ -28,13 +28,13 @@ const montserrat = Montserrat({
 export const metadata = {
   metadataBase: new URL(SITE_URL || 'https://sobhaayanapanathur.com'),
   title: 'Sobha Ayana | 3 BHK Luxury Apartments Panathur Bangalore',
-  description: 'Sobha Ayana at Panathur, Off Marathahalli-ORR, Bengaluru by Sobha Limited offers exclusive 3 BHK luxury apartments with 100+ modern lifestyle amenities. New Launch.',
+  description: 'Sobha Ayana at Panathur, Off Marathahalli-ORR, Bengaluru by Sobha offers exclusive 3 BHK luxury apartments with 100+ modern lifestyle amenities. New Launch.',
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'Sobha Ayana | 3 BHK Luxury Apartments Panathur Bangalore',
-    description: 'Sobha Ayana at Panathur, Off Marathahalli-ORR, Bengaluru by Sobha Limited offers exclusive 3 BHK luxury apartments with 100+ modern lifestyle amenities. New Launch.',
+    description: 'Sobha Ayana at Panathur, Off Marathahalli-ORR, Bengaluru by Sobha offers exclusive 3 BHK luxury apartments with 100+ modern lifestyle amenities. New Launch.',
     url: SITE_URL || 'https://sobhaayanapanathur.com',
     siteName: 'Sobha Ayana',
     type: 'website',
@@ -42,7 +42,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Sobha Ayana | 3 BHK Luxury Apartments Panathur Bangalore',
-    description: 'Sobha Ayana at Panathur, Off Marathahalli-ORR, Bengaluru by Sobha Limited offers exclusive 3 BHK luxury apartments with 100+ modern lifestyle amenities. New Launch.',
+    description: 'Sobha Ayana at Panathur, Off Marathahalli-ORR, Bengaluru by Sobha offers exclusive 3 BHK luxury apartments with 100+ modern lifestyle amenities. New Launch.',
   },
   icons: {
     icon: '/favicon/favicon.png',

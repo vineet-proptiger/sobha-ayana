@@ -90,7 +90,7 @@ const Hero = ({ setIsOpen }) => {
                 <div className="flex items-center gap-2 mb-2">
                   <span className="text-[11px] sm:text-[12px] uppercase tracking-[1.5px] font-bold text-[#8B6A34] bg-[#8B6A34]/10 border border-[#8B6A34]/30 px-3.5 py-1 rounded-full shadow-sm inline-flex items-center gap-1.5">
                     <i className="fa-solid fa-city text-[#8B6A34] text-[11px]" />
-                    By Sobha Limited
+                    By Sobha
                   </span>
                 </div>
 

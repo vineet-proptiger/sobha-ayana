@@ -9,7 +9,7 @@ const highlights = [
   },
   {
     title: 'Reputed Developer',
-    description: 'Premium residential project by reputed developer Sobha Limited.',
+    description: 'Premium residential project by reputed developer Sobha.',
     icon: 'fa-solid fa-building-circle-check'
   },
   {

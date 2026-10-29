@@ -2,7 +2,7 @@ export default function manifest() {
   return {
     name: 'Sobha Ayana',
     short_name: 'Sobha Ayana',
-    description: 'Exclusive 3 BHK Luxury Apartments at Panathur, Off Marathahalli-ORR, Bengaluru by Sobha Limited',
+    description: 'Exclusive 3 BHK Luxury Apartments at Panathur, Off Marathahalli-ORR, Bengaluru by Sobha',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',
